@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(pink, #42f4f4);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow:2px 2px #42f4f4;
+    font-size:120px;
+    border:15px solid pink;
+}
+p{
+    color:white;
+    text-align:center;
+    font-size:30px;
+}

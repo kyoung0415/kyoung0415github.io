@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href= "styles.css" rel="stylesheet">
+        <style>
+       
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #42f4f4;
+}
+
+.active {
+    background-color: pink;
+}
+</style>
+</head>
+
+<body>
+    <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="index2.html">Point of View Project</a></li>
+  <li><a href="index3.html">Cupcake Project</a></li>
+  <li><a href="index4.html">City Museum Project</a></li>
+</ul>
+
         <link rel="stylesheet" href="styles.css" type="text/css" />
+    
+        
+        <h1>Digital Photography Portfolio</h1>
+        <h2>Home page</h2>
+        
        
-       
-        </head>
-        <body>
-            
-            <h1 style="border:2px solid Tomato;">Hello World</h1>
-            <h1 style="background-color:DodgerBlue;">Hello World</h1>
-            <marquee> Hello World</marquee>
-            <button> button</button>
-           
-            <ol>Favorite Sports</ol>
-            <li>soccer</li>
-            <li>basketball</li>
-            <li>gymnastics</li>
-            <li>tennis </li>
-            <li>swim</li>
-            
-            <img src="http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Beagle-1.jpg"></img>
-             </body>
+        <marquee> <strong>all pictures originated from my digital photography projects.</strong></marquee>
              
+     <p1>
+        <strong>Digital Photography was a semester-long interactive course, in  which students expanded their knowledge about camera settings and adobe photoshop. All pictures were edited with Adobe Photoshop CS4 and I used manual mode on my Canon camera to capture the pictures. The inter-changeable settings in manual mode were used when necessary. Shutter priority was used to capture fast motion, and to achieve a suspended effect. ISO stands for International Standards Organization, which is a standardized industry scale for measuring sensitivity to light. Aperture controls the size of the diaphragm opening in a camera lens and regulates the amount of light that passes through the camera.</strong>
+     </p1>
+         
+        <img src= "https://i.ytimg.com/vi/vv0WQ5DmzaU/maxresdefault.jpg" alt= "HTML5 Icon" height= "230" width= "370"></img>
+          
+        <img src= "https://photographyconcentrate.com/wp-content/uploads/2017/12/man-MG_0647.jpg" alt = "HTML5 Icon" height = "230" width= "370"></img>
+   
+   
+   <button id="easy">easy</button>
+   <script src= "https://code.jquery.com/jquery-2.2.3.min.js"></script>
+   
+   <script src= "main.js"></script>
+   
+   
+  
+  </body>
+            
     
 </html>

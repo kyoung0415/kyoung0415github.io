@@ -1,4 +1,36 @@
 body {
-    font-size: 50px;
-    background-color: #961414;
+    color: white;
+    background-image: url(https://images.pexels.com/photos/569098/pexels-photo-569098.jpeg?auto=compress&cs=tinysrgb&h=350);
+    font-family:inherit;
 }
+
+h1{ 
+    border:4px solid pink;
+    text-align:center;
+    font-size:80px;
+    text-shadow: 2px 2px #42f4f4;
+}
+h2 {
+    background-color:pink;
+    text-align: center;
+    font-size:80px;
+    text-shadow: 2px 2px #32f4f4;
+}
+
+h3{
+    text-align: center;
+    font-size:70px;
+    text-shadow: 2px 2px #42f4f4;
+}
+
+marquee {
+        color: white;
+        font-size: 40px;
+        text-shadow:2px 2px #42f4f4;
+}
+
+p1 {
+    font-size:30px;
+    text-align:center;
+}
+

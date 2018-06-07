@@ -1,0 +1,25 @@
+body{
+     background: linear-gradient(pink, #42f4f4);
+}
+h1{
+    color:white;
+    text-align:center;
+    font-size:120px;
+    text-shadow: 2px 2px #42f4f4;
+    border:15px solid pink;
+}
+p{
+    color:white;
+    font-size:50px;
+    text-align:center;
+}
+p1{
+    color:white;
+    font-size:30px;
+    text-align:center;
+}
+marquee{
+    font-size:50px;
+    color:white;
+    text-shadow: 2px 2px pink;
+}
