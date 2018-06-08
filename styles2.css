@@ -1,25 +1,29 @@
 body{
-     background: linear-gradient(pink, #42f4f4);
+     background-color: lightblue;
 }
 h1{
     color:white;
     text-align:center;
     font-size:120px;
-    text-shadow: 2px 2px #42f4f4;
-    border:15px solid pink;
+    text-shadow: 4px 4px #dcdfe5;
+   border:15px solid #dcdfe5;
+    font-family: 'Josefin Sans', sans-serif;
 }
 p{
     color:white;
     font-size:50px;
     text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 p1{
     color:white;
     font-size:30px;
     text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 marquee{
     font-size:50px;
     color:white;
-    text-shadow: 2px 2px pink;
+    text-shadow: 4px 4px #dcdfe5;
+    font-family: 'Josefin Sans', sans-serif;
 }
