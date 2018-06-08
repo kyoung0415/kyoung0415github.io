@@ -3,25 +3,25 @@ body{
 }
 h1{
     text-align:center;
-    color:#dcdfe5;
+    color:#39607a;
     font-size:120px;
     font-family: 'Josefin Sans', sans-serif;
    
 }
 p{
-    color:#dcdfe5;
+    color:#39607a;
     font-size:50px;
     text-align:center;
     font-family: 'Josefin Sans', sans-serif;
 }
 p1{
-    color:#dcdfe5;
+    color:#39607a;
     font-size:30px;
     text-align:center;
     font-family: 'Josefin Sans', sans-serif;
 }
 marquee{
     font-size:50px;
-    color:#dcdfe5;
+    color:#39607a;
     font-family: 'Josefin Sans', sans-serif;
 }
