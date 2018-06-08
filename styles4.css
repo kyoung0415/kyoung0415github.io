@@ -1,13 +1,16 @@
 body{
-    background:linear-gradient(pink, #42f4f4);
+    background-color: white;
 }
 h3{
-    color:white;
+    color:#dcdfe5;
     font-size:120px;
-    text-shadow: 2px 2px #42f4f4;
-    border:15px solid pink;
+    
+    border:15px #dcdfe5;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:center;
 }
 p{
-    color:white;
+    color:#dcdfe5;
     font-size:40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
